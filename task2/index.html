@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <form id="form" action="">
+    	<input type="text" id="inputTitle" placeholder="title:" />
+    	<input type="text" id="inputDescription" placeholder="description:" />
+    	<button id="addCardButton">Add my card</button>
+    </form>
+
+	<br>
+<div class="allList">
+    <div class="todoList">
+    	<div
+        id="todo"
+        style="width: 400px; padding: 1rem; border: 2px solid greenyellow; border-radius: 15px;"
+    	></div>
+    </div>
+
+	<br>
+
+	<div class="inProgressList">
+    	<div
+        id="inProgress"
+        style="width: 400px; padding: 1rem; border: 2px solid greenyellow; border-radius: 15px;"
+    	></div>
+    </div>
+</div>
+	<div class="wrapper">
+	<div class="modal-wrapper">
+		<div class="modal">
+			<button class="roundButton"  id="closeButton">X</button>
+			<input id="inputModalTitle" type="text" />
+			<input id="inputModalDescription" type="text" />
+			<button id="modalSubmit">Submit</button>
+		</div>
+	</div>
+	</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
